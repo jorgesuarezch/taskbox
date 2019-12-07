@@ -10,12 +10,14 @@
     "react-dom": "^16.12.0",
     "react-redux": "^7.1.3",
     "react-scripts": "3.3.0",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "storybook-chromatic": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "chromatic": "chromatic test --app-code=$CHROMATIC_APP_CODE",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
